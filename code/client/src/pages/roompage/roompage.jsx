@@ -69,12 +69,6 @@ const RoomPage = ({ socket }) => {
 
     return (
         <div class="room-page">
-            <div className="piece piece-1"></div>
-            <div className="piece piece-2"></div>
-            <div className="piece piece-3"></div>
-            <div className="piece piece-4"></div>
-            <div className="piece piece-5"></div>
-            <div className="piece piece-6"></div>
             <div>
                 <p className="h1 text-danger font-weight-bold font-italic text-center ">Treacherous Tetris</p>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
