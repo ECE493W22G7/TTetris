@@ -64,6 +64,8 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   border: 0;
+  width:100%;
+  max-width: 150px;
   margin-left: 10px;
 }
 /* game start button end */
