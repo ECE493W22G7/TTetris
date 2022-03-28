@@ -30,7 +30,7 @@ class HelpPage extends Component {
                                     <li><strong>Tetris Pieces:</strong> there are 7 Tetrominoes I, J, L, O, S, Z, T. They can be moved to left, right, rotated using the "Up" arrow key and hard dropped using the "Space" key.</li>
                                     <li><strong>Players:</strong> there are 3 types of players in TTetris: <em>Civilans</em> are regular players in the game who collaborate with each other to win.
                                     <em> Imposter</em> tries to prevent civilains from winning by interfering with row completion. They are randomly selected when players join the game session and can use the functionality of each sabotage button once. <em>Exiled</em> is the player who is voted out during Emergency voting session.</li>
-                                    <li><strong>Sabotage Buttons:</strong>there are 3 sabotage buttons which are visible to a randomly selected Imposter player. <em>Progress</em> button enables the imposter to reduce the progress bar by one completed row, <em>Piece</em> button can change all the falling pieces to new randomly generated ones, and <em>Drop</em> button can hard drop all the falling pieces on the gameboard.</li>
+                                    <li><strong>Sabotage Buttons:</strong> there are 3 sabotage buttons which are visible to a randomly selected Imposter player. <em>Progress</em> button enables the imposter to reduce the progress bar by one completed row, <em>Piece</em> button can change all the falling pieces to new randomly generated ones, and <em>Drop</em> button can hard drop all the falling pieces on the gameboard.</li>
                                 </ul>
                             </div>
                         </div>

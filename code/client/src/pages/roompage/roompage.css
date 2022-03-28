@@ -9,7 +9,8 @@ html, body, #root {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     height:100%;
-    border: 100px solid #424242;
+    /* border: 100px solid #424242; */
+    border: 100px solid #eceff1;
     border-top: 0px;
     border-bottom: 0px;
     display: flex;
@@ -101,35 +102,35 @@ html, body, #root {
 .piece-1{
   background-size:contain;
   background-image: url("image/T-Piece.png");
-  left: 1.3vw;
+  left: 1.1vw;
   animation-duration: 10s;
 }
 
 .piece-2{
   background-size:contain;
   background-image: url("image/T-Piece.png");
-  right: 1.3vw;
+  right: 1.2vw;
   animation-duration: 10s;
 }
 
 .piece-3{
   background-size:contain;
   background-image: url("image/S-Piece.png");
-  left: 1.4vw;
+  left: 1.1vw;
   animation-duration: 12s;
 }
 
 .piece-4{
   background-size:contain;
   background-image: url("image/S-Piece.png");
-  right: 1.4vw;
+  right: 1.2vw;
   animation-duration: 12s;
 }
 
 .piece-5{
   background-size:contain;
   background-image: url("image/J-Piece.png");
-  left: 0.6vw;
+  left: 0.5vw;
   animation-duration: 14s;
 }
 
@@ -143,14 +144,14 @@ html, body, #root {
 .piece-7{
   background-size:contain;
   background-image: url("image/O-Piece.png");
-  right: 0.7vw;
+  right: 0.6vw;
   animation-duration: 16s;
 }
 
 .piece-8{
   background-size:contain;
   background-image: url("image/O-Piece.png");
-  left: 2.0vw;
+  left: 1.5vw;
   animation-duration: 16s;
 }
 
@@ -164,7 +165,7 @@ html, body, #root {
 .piece-10{
   background-size:contain;
   background-image: url("image/L-Piece.png");
-  left: 0.6vw;
+  left: 0.5vw;
   animation-duration: 18s;
 }
 /* end of falling pieces */

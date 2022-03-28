@@ -44,7 +44,7 @@ const GameViewComponent = ({socket}) => {
             <div className="GameViewCol1">
                     <GameButtonsComponent socket={socket} />
                     <GameVotingComponent />
-                    <div className="game-level">Level 1</div>
+                    <div className="game-level">Speed 1</div>
             </div>
             <div className="GameViewCol2" ref={gameDivRef} tabindex="0">
                 <ResponsiveGameCanvasComponent />
