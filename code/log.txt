@@ -1,0 +1,506 @@
+*   647359d (HEAD -> main, origin/main, origin/HEAD) Merge branch 'main' of github.com:ECE493W22G7/TTetris
+|\  
+| * 3f4f799 test: extend test time for room session
+| *   6e744cf merge
+| |\  
+| | *   2730c6c Merge pull request #102 from ECE493W22G7/gina-jestsnaptest
+| | |\  
+| | | * cf3ff9d (origin/gina-jestsnaptest, gina-jestsnaptest) test: testing ui showing up for host, game and help components
+| | |/  
+| * / 6ebdca9 test: added tests for home page
+| |/  
+* / ac2342a test: add test code for playerInfoComponent
+|/  
+*   bb5dab3 Merge branch 'main' of github.com:ECE493W22G7/TTetris
+|\  
+| *   cda19c5 Merge pull request #101 from ECE493W22G7/gina-testcases
+| |\  
+| | * bd93a0f (origin/gina-testcases, gina-testcases) test:added test cases for vote session
+| |/  
+* / 6f949c8 feat: add sample test for react
+|/  
+* e2af44f fix: add test coverage to the client:
+* 5f6304f fix: client tests should run
+* d8a7c17 fix: client tests should run
+* 3fbf0b5 test: added tests for chat session
+* addb6a1 test: added room session tests
+* b294d72 add README
+* 9e1cc6a fix(gamecanvas): ensure falling pieces always have borders
+* 19b3aa1 fix: imposter secret color
+* f62b791 fix: imposter secret color
+*   ee887c5 Merge branch 'main' of github.com:ECE493W22G7/TTetris
+|\  
+| * 7975793 (uofa/master, uofa/main) Update README.md
+| * 6d75df7 Update README.md
+* | 7f61aeb add: secret imposter color and remove old emergency button
+|/  
+* 0f39d04 fix: remove mute button
+* e1b7cbc feat: moake board look fancy
+*   412bd44 Merge pull request #100 from ECE493W22G7/gina-playerHasEmergency
+|\  
+| *   3029918 (origin/gina-playerHasEmergency) merge frome main
+| |\  
+| |/  
+|/|   
+* | 938038b chore: add FRMARKERs
+* | b46dc2a fix: import useEffect
+* | 2488238 perf: move socket event to onmount
+| * 6dd9659 (gina-playerHasEmergency) feat: player has emergency button on player info
+| *   dfaf58b Merge branch 'main' into gina-playerHasEmergency
+| |\  
+| |/  
+|/|   
+* | c846c48 fix: audio
+* | 2e9e52a fix: host should recieve peer audio
+* |   d1c1ecf Merge pull request #99 from ECE493W22G7/azeez-fixPlayerInfoListener
+|\ \  
+| * | 1e2a8e5 (origin/azeez-fixPlayerInfoListener) fix: remove unused listener from nickname input field
+| * | 9e6e1a4 fix: playerinfo component should only create a socket event listerner on mount
+* | | 41ec091 fix: audio webrtc should work now
+|/ /  
+* | afbbe9d fix: audio chat via webrtc should work now
+* |   9d322fa Merge pull request #98 from ECE493W22G7/azeez-fixRoomPagePerf
+|\ \  
+| * | bb12e45 (origin/azeez-fixRoomPagePerf) fix: prevent over rendering the room page component
+|/ /  
+| | * 5ed44b8 (refs/stash) WIP on gina-playerHasEmergency: 3d64b3d removed the previous changes
+| |/| 
+| | * 4af5ff9 index on gina-playerHasEmergency: 3d64b3d removed the previous changes
+| |/  
+| * 3d64b3d removed the previous changes
+| * 3c0d2a5 feat: updating player status has emergnecy button
+| * 4fca970 ui checking if player has emergency button
+|/  
+*   1a8e431 Merge pull request #97 from ECE493W22G7/azeez-voteTimer
+|\  
+| * 9ebcf35 (origin/azeez-voteTimer) fix: shouldnt move pieces in voting phase
+* | a81ad61 Merge pull request #96 from ECE493W22G7/azeez-voteTimer
+|\| 
+| * ff93062 feat: add more board rows and increase completion
+* |   7a360cc Merge pull request #95 from ECE493W22G7/wonbin-webrtc2
+|\ \  
+| |/  
+|/|   
+| * e67072a (origin/wonbin-webrtc2) fix: change to audio component
+| * e9c8125 fix: get rid of video in roompage
+* | 3600b3c Merge pull request #94 from ECE493W22G7/wonbin-webrtc2
+|\| 
+| *   44da9b7 fix: merge conflicts fixed
+| |\  
+| |/  
+|/|   
+* |   a36ed3a feat: add game timer
+|\ \  
+| * \   8853d7d Merge pull request #93 from ECE493W22G7/gina-csscleanup
+| |\ \  
+| | * | 9c83dad (origin/gina-csscleanup, gina-csscleanup) minor ui clean up
+| |/ /  
+* / / 9707a26 feat: add game timer
+|/ /  
+| * 5f5f8ec feat: webrtc works now using Peer.js
+|/  
+*   53337ce Merge pull request #92 from ECE493W22G7/wonbin-ui-change
+|\  
+| * 5e716f9 (origin/wonbin-ui-change) fix: ui changes, time, and copy roomID
+| * 0778155 refactor: made some ui changes using more bootstrap
+|/  
+*   4137824 Merge pull request #91 from ECE493W22G7/azeez-votingResults
+|\  
+| * c228dd8 (origin/azeez-votingResults) fix: merge conflict and send final update when game ends
+| * 2ca28bc fix: remove uneeded dependency
+| *   21a9ac6 chore: merge with main
+| |\  
+| |/  
+|/|   
+* |   78529e0 Merge pull request #90 from ECE493W22G7/gina-hostsetspeed
+|\ \  
+| * | e5494e4 (origin/gina-hostsetspeed, gina-hostsetspeed) feat:host can set game speed
+|/ /  
+* |   9c7525c (gina-copytoclipboard) Merge pull request #88 from ECE493W22G7/gina-setspeedinput
+|\ \  
+| | * c0451ce feat: complete voting and elimination functionality
+| | *   19f6e53 Merge branch 'main' into azeez-votingResults
+| | |\  
+| |_|/  
+|/| |   
+* | |   456b86e Merge pull request #87 from ECE493W22G7/azeez-endByProgress
+|\ \ \  
+* \ \ \   9a6d074 Merge pull request #86 from ECE493W22G7/azeez-endByProgress
+|\ \ \ \  
+| | | | * 2ad044b feat: connext voting frontend to gamedata and captureVotes command
+| | | |/  
+| | |/|   
+| | * | f6d89da (origin/azeez-endByProgress) fix: the game should end if multiple rows are completed at once
+| | * | 19191a9 feat: add game over screen
+| |/ /  
+| * / 5ae60b3 feat: ensure game ends when updated or when pieces are hard dropped
+|/ /  
+* | ba074cd fix: change completion to 5 rows
+* |   6b458a0 Merge pull request #84 from ECE493W22G7/azeez-emergencyVoting
+|\ \  
+| * \   592c5a3 (origin/azeez-emergencyVoting) Merge branch 'main' into azeez-emergencyVoting
+| |\ \  
+| |/ /  
+|/| |   
+* | |   fa92664 Merge pull request #76 from ECE493W22G7/gina-updateplayernickname
+|\ \ \  
+| | * | 89e2111 fix: minor fixes
+| | * | 262f09a fix: minor fixes
+| | * | 73fc1b7 fix: minor fixes
+| | * | c3065b8 fix: minor fixes
+| | * | 36b96d0 feat: add more voting functionality + UI
+| | * | 4f7432f feat: add more voting functionality + UI
+| | * | f8d9f2e feat: add more voting functionality + UI
+| | * | 306e0a5 feat: add more voting functionality
+| | * | 0971027 feat: add voting functionality
+| | | | * f62384c (origin/gina-uiupdate, gina-uiupdate) some ui updates
+| | | |/  
+| | | * b867071 (origin/gina-setspeedinput, gina-setspeedinput) updated help page
+| | | * c35773c setspeed socket emit
+| | | * 2fc9925 fixed some ui issues
+| | |/  
+| |/|   
+| * | 7a11bc4 (origin/gina-updateplayernickname, gina-updateplayernickname) removed extra lines
+| * | b1e65a6 indicator for enter is shown below the input box:
+| * | 4308653 fixed css for nickname update
+| * | b7471f5 player's nickname is updated on player info
+|/ /  
+* | 6064b18 Merge pull request #75 from ECE493W22G7/azeez-SabotageButtons
+|\| 
+| *   74640de (origin/azeez-SabotageButtons) Merge branch 'main' into azeez-SabotageButtons
+| |\  
+| * | 4e4b4ca feat: only show sabotage buttons for the imposter
+* | |   f826e1f Merge pull request #74 from ECE493W22G7/azeez-serverReliablityFix
+|\ \ \  
+| |_|/  
+|/| |   
+| * | 2e0d483 (origin/azeez-serverReliablityFix) fix: server crash on non-existent room requests
+|/ /  
+* | de2333f Merge pull request #65 from ECE493W22G7/azeez-SabotageButtons
+|\| 
+| *   6af2952 Merge branch 'main' into azeez-SabotageButtons
+| |\  
+| * | 5bb7f4b fix: make game input and message input coexist
+* | |   272d1e8 Merge pull request #64 from ECE493W22G7/wonbin-player-info
+|\ \ \  
+| |_|/  
+|/| |   
+| * | 70d9bc2 (origin/wonbin-player-info) Update server.js
+| * |   fb8d0fd Merge branch 'main' into wonbin-player-info
+| |\ \  
+| |/ /  
+|/| |   
+| * | 388784c pull from main
+| * | a52365e refactor: get rid of bad console.log
+| * | e7453a0 feat: add player status, change color update, room full check, player connection status
+| | | * 558a371 (origin/gina-roompageuifix, gina-roompageuifix) emergegncy button for player info
+| | | * 1b0282e changed color of gameboard frame
+| |_|/  
+|/| |   
+* | |   11fd4c3 feat: add sabotage functionality
+|\ \ \  
+| | |/  
+| |/|   
+| * |   2e772b8 Merge branch 'main' into azeez-SabotageButtons
+| |\ \  
+| |/ /  
+|/| |   
+* | |   8f5d57a Merge pull request #62 from ECE493W22G7/gina-fixuiissues
+|\ \ \  
+| * | | fdd1ad1 (origin/gina-fixuiissues, gina-fixuiissues) minor fix for T-Piece alignment
+| * | | a90fb6e fixed some ui issues on room page
+* | | | 1e72079 Merge pull request #61 from ECE493W22G7/gina-votingcomponentUI
+|\| | | 
+| * | | 61e44a9 (origin/gina-votingcomponentUI, gina-votingcomponentUI) editted voting component, mic and connection buttons
+| * | | 225cd98 built UI for voting component
+| | |/  
+| |/|   
+* | |   327f1e1 Merge pull request #60 from ECE493W22G7/azeez-fixEndGameInput
+|\ \ \  
+| |/ /  
+|/| |   
+| | * eb5a633 feat: add sabotage functionality
+| |/  
+| * 77315cd (origin/azeez-fixEndGameInput) fix: last piece should be added to the board
+| *   80c9c6f Merge branch 'main' into azeez-fixEndGameInput
+| |\  
+| |/  
+|/|   
+* |   1535aa5 Merge pull request #59 from ECE493W22G7/wonbin-chatsession
+|\ \  
+| * | 5c7495d (origin/wonbin-chatsession) fix: no need to send back message for callback function
+* | |   10e82a5 Merge pull request #58 from ECE493W22G7/gina-fixfallingpieces
+|\ \ \  
+| * | | a7a877d (origin/gina-fixfallingpieces, gina-fixfallingpieces) add all falling pieces
+| * | | b5dc466 added Tetris pieces to fall
+* | | | 6350515 Merge pull request #56 from ECE493W22G7/gina-sabotagebuttons
+|\| | | 
+| * | | f33de4d (origin/gina-sabotagebuttons, gina-sabotagebuttons) added the rest of sabotage buttons
+* | | |   d4b646b Merge pull request #55 from ECE493W22G7/azeez-fixEndGameInput
+|\ \ \ \  
+| |/ / /  
+|/| | |   
+| | | * ae168bb fix: last piece should be added to the board
+| | | * 13f4f97 fix: add the last piece to the board
+| | |/  
+| |/|   
+| * | 4c4775e fix: dont process player input if the game is done/paused
+|/ /  
+* |   6b82fe9 Merge pull request #53 from ECE493W22G7/azeez-herokuSetup
+|\ \  
+| * | 0ceb2aa chore: add server proxy to client
+| * | ad9a715 debug: print websocket address on page load
+| * | 1923465 fix(client): connect to websocket server using window.location
+| * | d0125b4 fix: remove hanging comma in package.json
+| * | f4df1a8 chore: server should run without nodedemon in production
+* | | 906f4c9 chore: add scripts to build and server the react app statically
+|\| | 
+| * | 415f1e3 chore: add scripts to build and server the react app statically
+* | |   45d19ca feat: add level indicator
+|\ \ \  
+| * | | 469ff92 (origin/gina-gameviewcomponentbuttons, gina-gameviewcomponentbuttons) Merge branch 'main' into gina-gameviewcomponentbuttons
+| |\| | 
+| * | | 6066ac5 added game level on game view component
+* | | |   d6fee5f feat: added chat session for rooms
+|\ \ \ \  
+| |_|/ /  
+|/| | /   
+| | |/    
+| |/|     
+| * | 31442d4 feat: added chat session for rooms
+* | |   5dc208b Merge pull request #49 from ECE493W22G7/azeez-fixLeftRightCollision
+|\ \ \  
+| * | | 6ea8fe8 (origin/azeez-fixLeftRightCollision) fix: tests
+* | | |   b6577b3 Merge pull request #47 from ECE493W22G7/gina-gameviewcomponentbuttons
+|\ \ \ \  
+| | |_|/  
+| |/| |   
+| * | | 178ba4c cleaned up a line on game button
+| * | | e0468fb added sabotage button
+| * | | d876cac added timer view
+| * | | b3641cb created the emergency button
+| * | | 481e0fb separated components for game view
+* | | |   d1f6cf1 fix: left and right collision should take priority
+|\ \ \ \  
+| | |/ /  
+| |/| |   
+| * | | ba442bf fix: left and right collision should take priority
+|/ / /  
+* | |   ecde902 feat: show player next piece in game canvas
+|\ \ \  
+| |_|/  
+|/| |   
+| * | 37bdbdc (origin/azeez-gamePlayChanges) feat: show player next piece in game canvas
+|/ /  
+* |   a353aca fix: roompage should show gameview upon returning to a game in progress
+|\ \  
+| * | 1faaedf (origin/azeez-fixGameViewNavigation) fix: room page should show game view upon returning to a game in progress
+| |/  
+* |   0ef0e42 Merge pull request #39 from ECE493W22G7/gina-fixsetspeed
+|\ \  
+| |/  
+|/|   
+| * cb342f0 (origin/gina-fixsetspeed, gina-gameviewbuttons, gina-fixsetspeed) fixed the set speed enable when host creates a room
+|/  
+*   fceea78 fix: start button should be disabled for non hosts
+|\  
+| * a9e5a47 fix: start button should be disabled for non hosts
+|/  
+*   ffa467b Merge pull request #35 from ECE493W22G7/gina-compartmentalizeUI
+|\  
+| * ffdd580 (origin/gina-compartmentalizeUI, gina-compartmentalizeUI) compartment for hostsettingcomponent
+| * a3fdfa3 separate compartment for player status
+* |   e32aa4d Merge pull request #33 from ECE493W22G7/azeez-Gameplayfix
+|\ \  
+| |/  
+|/|   
+| * d682493 (origin/azeez-Gameplayfix) chore: remove some debuging logs
+| * ca2a11a fix(gameplay): hard dropped pieces should be added to the grid
+* |   0e9c1c8 Merge pull request #34 from ECE493W22G7/wonbin-settings
+|\ \  
+| |/  
+|/|   
+| * b90fa79 (origin/wonbin-settings) feat: setting up settings component wit server
+|/  
+*   3832a9d chore: merge
+|\  
+| *   a05c8fa Merge pull request #31 from ECE493W22G7/gina-roomviewratio
+| |\  
+| | * 2674c2b (origin/gina-roomviewratio, gina-roomviewratio) changed the ration of left and right sections
+| |/  
+* / a8e515c feat: map keyboard keys to game inputs
+|/  
+*   393a197 Merge pull request #30 from ECE493W22G7/azeez-SharedGameState
+|\  
+| *   29634d9 (origin/azeez-SharedGameState) Merge branch 'main' into azeez-SharedGameState
+| |\  
+| |/  
+|/|   
+* |   0709a7f Merge pull request #28 from ECE493W22G7/wonbin-IDs
+|\ \  
+| * | 4f59237 (origin/wonbin-IDs) fix: package-lock.json merge conflicts :
+| * | 916e595 fix: roomID should generate on server, reduced to 4, and store clientID in frontend
+| * | 817be92 fix: new modules added to package.json
+| | *   966e950 feat: integrated game view component
+| | |\  
+| |_|/  
+|/| |   
+| | * f47c7a3 fix: rename socket to channel where approriate
+| | * a835574 fix: rename socket to channel where approriate
+| | * 58c0455 feat: start game for all clients
+| | * 5b370d6 fix: minor gameCanvasComponent fixes
+| |/  
+| | * 068eabe (origin/gina-animationUI, gina-animationUI) fixed ratio of game and players component
+| | * e4f81f2 removed side animation for all rooms
+| |/  
+|/|   
+* |   4fbcfb9 Merge pull request #27 from ECE493W22G7/gina-joinroomUI
+|\ \  
+| |/  
+|/|   
+| * 79a499a (origin/gina-joinroomUI) chore: merge chnages with main
+| * be22286 (gina-joinroomUI) fix for file locations
+| *   b7a603b resolved merge conflict
+| |\  
+| |/  
+|/|   
+* |   846fd0e Merge pull request #25 from ECE493W22G7/azeez-clientGameViewComponent
+|\ \  
+| * | 640f197 feat: lots of fixes and integrated client with server
+* | | 2c5749f Merge pull request #24 from ECE493W22G7/azeez-clientGameViewComponent
+|\| | 
+| * | b3b72c6 feat: make server code and tests work with absolute file paths
+| * | e788232 feat: improve client folder structure
+|/ /  
+* |   4ec7698 chore: lots of minor imporvements to gamesession and testing
+|\ \  
+| * \   092a118 Merge branch 'main' into azeez-GameSession
+| |\ \  
+| |/ /  
+|/| |   
+* | |   f1900a0 Merge pull request #22 from ECE493W22G7/wonbin-client
+|\ \ \  
+| * \ \   cb4b87b (origin/wonbin-client) Merge branch 'main' into wonbin-client
+| |\ \ \  
+| |/ / /  
+|/| | |   
+* | | |   4a40d61 Merge pull request #21 from ECE493W22G7/wonbin-homepage
+|\ \ \ \  
+| * \ \ \   7cfb483 (origin/wonbin-homepage) Merge branch 'main' into wonbin-homepage
+| |\ \ \ \  
+| |/ / / /  
+|/| | | |   
+| | * | |   4fbfa79 Merge branch 'main' into wonbin-client
+| | |\ \ \  
+| |_|/ / /  
+|/| | | |   
+| | * | | 50ae21b feat: added clients to room session
+| |/ / /  
+| * | | f5735e2 fix: homepage buttons modified to buttons to navigate after onclick handler, added room session
+| | * | 966605f fix: workspace comments
+| | * | 847ef62 chore: improve gamestate, add gamesession tests, add vscode workspace, reorganize docs
+| | * | 635e489 feat: add player input to GameSession and row elimination to GameState
+| | | *   eb5b1da Merge branch 'main' into gina-joinroomUI
+| | | |\  
+| |_|_|/  
+|/| | |   
+* | | |   4925dd2 Merge pull request #20 from ECE493W22G7/wonbin-homepage-fix
+|\ \ \ \  
+| |/ / /  
+|/| | |   
+| * | | f7db5f5 (origin/wonbin-homepage-fix) fix: UI merge conflict issue solved
+|/ / /  
+| | * 5591f60 fix for chat box and player info scroll
+| | * addfc39 editted some alignment issues
+| | * 08281ea navigation to helppage from roompage, scrolling, chat component clean up, button alignments
+| | * 7c11533 cleaned up chat box code and added more parts
+| | * c8dcd7d fixed class names
+| | * 26528d0 added copy to clipboard, help button fixed, player info
+| | * 6a639a9 added a dummy chat box
+| | * 0b28d43 created UI for host and player settings v1
+| | * 1201d0c added falling boxes(later Tetris pieces) to our page UIs
+| | * 035f222 added ui frame for components and help button on room page
+| | * 04d132a created the UI frame for joinroom to add the components
+| |/  
+|/|   
+* |   06fbb7a Merge pull request #16 from ECE493W22G7/wonbin-roompage
+|\ \  
+| * \   9459de0 fix: merge conflicts
+| |\ \  
+| |/ /  
+|/| |   
+* | |   acb9ce5 Merge pull request #17 from ECE493W22G7/azeez-GameSession
+|\ \ \  
+| | |/  
+| |/|   
+| * | 6c94f8e (origin/azeez-GameSession) fix: playPiece should return false if the piece cant be played
+| * | 35bb77b feat: add GameSession, GameState, GamePiece and Player classes with basic functionality
+* | |   f353dd8 Merge pull request #18 from ECE493W22G7/gina-helppage
+|\ \ \  
+| |/ /  
+|/| |   
+| * | fa57d96 (origin/gina-helppage, gina-helppage) changed the text in help page a bit
+| * | 93781e0 fixed the UI issue for join room input
+| * | 73b3e56 UI improvement for section alignment and navigation from the homepage is set up
+| * | 77f98ea created a basic help page but need some fixes
+|/ /  
+| *   0fb43c7 (origin/wonbin-roompage) Merge branch 'main' into wonbin-roompage
+| |\  
+| |/  
+|/|   
+* |   1899c32 feat: GCC cleanup
+|\ \  
+| * | 67e7a93 feat: GCC cleanup
+| * | d4b4a84 feat: GCC cleanup
+|/ /  
+* |   ede18a3 feat: add GameCanvasComponent and ResponsiveGameCanvasComponent
+|\ \  
+| * | 608451e feat: add progress bar and improve canvas responsiveness
+| * |   d3a561f feat: merge GCC wit main
+| |\ \  
+| |/ /  
+|/| |   
+| * | 1748fe3 feat: added mock Game Data generation
+| * | 53c30a6 (origin/azeezResponsiveGCC) feat: add a responsive GameCanvasComponent
+| | * fe301fa remove: removed socket functions I was playing around with
+| | * 2a4a29c feat: room page, routing, and basic components added.
+| | * efd9bd3 feat: initialized roompage component
+| |/  
+|/|   
+* |   fcf0481 Merge pull request #9 from ECE493W22G7/Wonbin-homepage
+|\ \  
+| * | 4836f76 fix: socket roomID spelling error
+* | | 6a086bf Merge pull request #8 from ECE493W22G7/Wonbin-homepage
+|\| | 
+| * | bb99a7c feat: homepage basic socket communication established with button functionality
+* | |   02c19ee Merge pull request #7 from ECE493W22G7/ginaSmallFixJs
+|\ \ \  
+| |/ /  
+|/| |   
+| * | 22dd7c7 (origin/ginaSmallFixJs, ginaSmallFixJs) updated reportWebVitals.ts to .js
+* | | fce6f35 Merge pull request #6 from ECE493W22G7/ginaHomePageUI
+|\| | 
+| * | 00b494c (origin/ginaHomePageUI, ginaHomePageUI) created ui for homepage
+|/ /  
+* |   4c806bc (homepage-ui) Merge pull request #5 from ECE493W22G7/socket-setup
+|\ \  
+| |/  
+|/|   
+| * ee8febc feat: socket server initialization
+| * 33b0f81 feat: socket setup on server
+|/  
+* f198774 feat: compile preliminary design diagrams to pdf
+* 99a54c9 feat: init server and client projects:
+* 87cf6e9 feat: create server and client projects
+* 3b5f5c9 feat: add activity diagrams
+* de2f72c feat: add voting sequence diagram
+* 3a126db feat: add sequence diagrams
+* 7feb140 feat: add uml class diagram
+* 4fa9b01 feat: finished all diagrams
+* a476917 Co-authored-by: wonbinjeong <wonbinjeong@users.noreply.github.com> Co-authored-by: GHassanzadeh <ghassanzadeh@users.noreply.github.com>
+* 9e9361a feat: add Use case diagram
+* e1d2e03 feat: update network diagram colors
+* 8e2e239 feat: add network diagram
+* 769163c feat: improved WBS diagram
+* 79d1d9b feat: add WBS related docs
+* 2bf140d Initial commit

@@ -20,6 +20,7 @@ const HostSettingsComponent = (props) => {
                             </span>
                             <input
                                 className="form-control set-speed"
+                                id = "speed_input"
                                 type="range"
                                 min="1"
                                 max="15"
